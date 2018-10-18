@@ -1,4 +1,5 @@
 # SAN scala 实现
+SAN parser for scala - the Simple And Needed HOCON/YAML alternative [https://astrocorp.net/san](https://astrocorp.net/san])
 
 # SAN 基本格式描述
 
@@ -57,11 +58,5 @@ SAN的BNF语法如下：
     	  obj ::= "{" [san] "}"
        values ::= value {"," value}
     	
-
-# 拓展
-
-用scala parser 写的sparkSQL: [https://github.com/stephentu/scala-sql-parser/blob/master/src/main/scala/parser.scala](https://github.com/stephentu/scala-sql-parser/blob/master/src/main/scala/parser.scala)
-
-用Scala来构建DSL: [https://www.slidestalk.com/s/building_dsls_with_scala_rain_focus_u6kwsr](https://www.slidestalk.com/s/building_dsls_with_scala_rain_focus_u6kwsr)
-
-用scala parser 或者 fastparse 来写 XQL
+# 计划
+1. 实现对class的unmarshal和marshal功能
